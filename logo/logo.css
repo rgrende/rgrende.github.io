@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+header {
+    font-family: serif;
+    font-size: 180%;
+    color: orangered;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#wrap{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    
+}
+
+
+section{
+    overflow: auto; /* bring floating elements back in order, remeber this for next project. Parent element*/
+}
+    
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: lightsteelblue;
+    padding: 15px;
+    font-family: serif;
+    font-size: 120%
+   
+}
+}
