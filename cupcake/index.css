@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+#wrap{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+}
+
+header, nav, footer {
+  
+}
+
+header img {
+    width: 100%;
+    
+}
+
+
+
+nav {
+    background-color: #0EC8C7;
+    text-align: center;
+    padding: 1px;
+    
+}
+
+nav ul {
+    margin: 10x;
+    
+  
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+h2, h3, h4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+nav li {
+    display: inline;
+    padding: 20px;
+    
+}
+
+.buy { 
+    width: 320px;
+    height: 200px;
+    float: right;
+    
+}
+
+
+section {
+    background-color: white;
+    overflow: auto;
+    padding: 0px 10px, 10px,0px;
+
+    
+}
+
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+article {
+    text-align: left;
+    padding; 25px;
+    margin: 20px;
+    overflow: auto;
+    
+}
+
+aside {
+    background-color: #EC3632;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-decoration: none;
+    padding: 8px;
+    
+}
+
+aside li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    text-align: left;
+
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer {
+    background-color: #0EC8C7;
+    font-size: 11px;
+    padding: 15px;
+    margin: 0px;
+    
+}
+
+footer li {
+    display: inline;
+    padding: 20px;
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    
+    nav a, footer a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+        
+    }
+    
+    nav {
+        padding: 0;
+        
+    }
+    aside, article {
+        float:none;
+        width: 94%;
+        
+    }
+    
+    .chick {
+        width: 99%;
+        float: none;
+    }
+    aside {
+        text-align: center;
+    }
+}
+
