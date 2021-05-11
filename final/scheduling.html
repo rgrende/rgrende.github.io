@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Place for Everything</title>
+    <link href="final.css" type="text/css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123150489-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123150489-6');
+</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    
+</head>
+    
+<body>
+    <div id="title" class= "container bg-white px-0">
+        <header>
+            <div class ="container-fluid text-center d-block">
+            <img class = "img-fluid" src ="title.png">
+            </div>
+            
+           <nav class = "navbar navbar-expand-lg justify-content-center navbar-dark">
+                <button class = "navbar-toggler navbar-button" type ="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"><span class="navbar-toggler-icon"></span></button>
+            <div class = "collapse navbar-collapse" id="navbarToggler">
+                    <ul class = "navbar-nav mx-auto">
+                        <li class= "nav-item">
+                        <a class = "nav-link active"
+                           href="final.html">Home</a>
+                        </li>
+                        <li class= "nav-item">
+                        <a class = "nav-link"
+                           href="about.html">About</a>
+                        </li>
+                        <li class= "nav-item">
+                        <a class = "nav-link"
+                        href="services.html">Services</a>
+                        </li>
+                        <li class= "nav-item">
+                        <a class = "nav-link"
+                       href="scheduling.html">Scheduling</a>
+                        </li>
+                        <li class= "nav-item">
+                        <a class = "nav-link"
+                           href="homeideas.html">At Home Ideas</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+<main class = "container-fluid p-2">
+    <div class = "row px-5 m-3">
+        <div class = "col">
+        <h1>Schedule a Time That Works For You!</h1>
+        <form class = "needs-validation" novalidate>
+  <div class="row mb-3">
+    <label for="inputName1" class="col-md-2 col-form-label">First Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputName1" required>
+        
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputName2" class="col-md-2 col-form-label">Last Name</label>
+    <div class="col-md-10">
+      <input type="text" class="form-control" id="inputName2" required>
+    
+    </div>
+  </div>
+    <div class="row mb-3">
+    <label for="inputEmail" class="col-md-2 col-form-label">Email</label>
+    <div class="col-md-10">
+      <input type="text" class="form-control" id="inputEmail" required>
+    
+    </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-md-8 pt-2">What can we help you organize?</legend>
+    <div class="col-md-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          Kitchen
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Bedroom
+        </label>
+      </div>
+        <div class="form-check input">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3" >
+        <label class="form-check-label" for="gridRadios3">
+          Pantry
+        </label>
+      </div>
+        <div class="form-check input">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios4" value="option4" >
+        <label class="form-check-label" for="gridRadios4">
+          Bathroom
+        </label>
+      </div>
+        <div class="form-check input">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option5" >
+        <label class="form-check-label" for="gridRadios5">
+          Closet
+        </label>
+      </div>
+        <div class="form-check input">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios6" value="option6" >
+        <label class="form-check-label" for="gridRadios6">
+          Loft
+        </label>
+      </div>
+        <div class="form-check disabled">
+        <input class="form-check-input" type=checkbox name="gridRadios" id="gridRadios7" value="option7" >
+        <label class="form-check-label" for="gridRadios7">
+          Office
+        </label>
+      </div>
+      <div class="form-check input">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios8" value="option8">
+        <label class="form-check-label" for="gridRadios8">
+          Other
+        </label>
+      </div>
+    </div>
+     
+  </fieldset>
+ <div class="row mb-3">
+    <div class="col-md-17 offset-md-0">
+    <label for="floatingTextarea2">Anything We Should Know?</label>
+    <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 100px"></textarea>
+    </div>
+  <div class="row mb-5">
+    <div class="col-md-1 my-2">
+        <div class="col-auto">
+    <button type="submit" class="btn btn-primary" data-toggle="#modal" id = "submit" data-target="#myModal">Submit</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+            
+
+</form>  
+    </div>
+    </div>
+        </main>
+</div>    
+    
+
+    <footer class = "container-fluid">
+    <div class = "row py-2">
+        <div class = "col">    
+        <p>&copy; 2021 RG23 No Violators. </p>
+        </div>
+    </div>
+        
+</footer>
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script> <!-- Bootstrap Import.-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+    </script><!-- JQuery Import.-->
+    
+
+<script>
+//JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Retreive all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>  
+
+    
+</body>
+    </html>
